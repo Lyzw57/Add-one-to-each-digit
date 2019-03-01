@@ -8,9 +8,6 @@ def add_one_to_each(number):
             factor += 1
         else:
             factor += 2
-
         number //= 10
 
     return result
-
-print(add_one_to_each(8998))
